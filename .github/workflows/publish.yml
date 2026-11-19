@@ -1,0 +1,29 @@
+name: Publish site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Unpack site
+        run: |
+          mkdir -p ../site
+          # the site is split into site/part-NNN pieces of base64 so each file stays small
+          cat site/part-* | base64 -d | tar -xzf - -C ../site
+          touch ../site/.nojekyll
+          printf '%s\n' "Endless Play Vault" > ../site/pages.txt
+          ls -laR ../site
+      - name: Push to gh-pages
+        run: |
+          cd ../site
+          git init -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publish Endless Play Vault"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
