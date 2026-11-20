@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Endless Play Vault</title>
+<meta name="description" content="Endless Play Vault: 83 original games with built-in puzzles, tracks and boards, played right in your browser. Beanbag toss, dance pad, starlight slots, tightrope, mahjong, pinball, rally racing and more.">
+<meta name="theme-color" content="#0b0c10">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Play Vault">
+<link rel="apple-touch-startup-image" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash-1170x2532.png">
+<link rel="apple-touch-startup-image" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash-1179x2556.png">
+<link rel="apple-touch-startup-image" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash-1290x2796.png">
+<link rel="apple-touch-startup-image" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3)" href="icons/splash-1284x2778.png">
+<link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="icons/splash-828x1792.png">
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="icons/splash-750x1334.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top" id="top">
+  <a class="brand" href="#/" aria-label="Endless Play Vault home"><img src="icons/icon-96.png" alt="" width="34" height="34"><span>Endless Play Vault</span></a>
+  <nav class="nav" aria-label="Main">
+    <a href="#/browse" data-nav="browse">Browse</a>
+    <button type="button" class="linkish" id="installBtn">Install</button>
+    <a href="#/account" data-nav="account">My scores</a>
+  </nav>
+</header>
+<main id="main" tabindex="-1"></main>
+<div id="play" class="play" hidden></div>
+<div id="modal" class="modal" hidden></div>
+<noscript><p style="padding:20px;color:#fff">Endless Play Vault needs JavaScript to run its games.</p></noscript>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

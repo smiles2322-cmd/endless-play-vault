@@ -1,0 +1,1 @@
+import{a as e}from"./chunk-FN77MQCZ.js";import"./chunk-6QXNNBQA.js";import"./chunk-HX4LYLCO.js";import"./chunk-5725GPYX.js";import"./chunk-GAHRQWBM.js";function r(l,p){return e(l,p,"spell")}export{r as default};

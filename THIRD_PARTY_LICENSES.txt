@@ -1,0 +1,66 @@
+Endless Play Vault - third party notices
+=========================================
+
+1. three.js (r186, version 0.186.1)
+   https://threejs.org  -  License: MIT
+   Used for the 3D rally engine (renderer, post-processing bloom, RoomEnvironment).
+   Copyright 2010-2025 three.js authors
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+   The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+   THE SOFTWARE.
+
+2. ambientCG textures  -  License: CC0 1.0 Universal (public domain)
+   https://ambientcg.com  (no attribution required, credited here anyway)
+   - Grass004     -> img/tex/grass.jpg
+   - Asphalt026B  -> img/tex/asphalt.jpg, img/tex/asphalt_n.jpg
+   - Bricks076C   -> img/tex/bricks.jpg
+   - Planks037B   -> img/tex/planks.jpg
+
+2b. Kenney Car Kit 3.1 by Kenney (www.kenney.nl)  -  License: CC0 1.0 Universal (public domain)
+   https://kenney.nl/assets/car-kit  (also https://opengameart.org/content/car-kit)
+   Used for the 3D race cars in the rally titles, recoloured in the app:
+   - race-future.glb, race.glb, sedan-sports.glb, hatchback-sports.glb -> img/cars/
+   - Textures/colormap.png -> img/cars/Textures/colormap.png
+   Original license text: img/cars/Kenney_Car_Kit_License.txt
+
+2c. Racing Kit 1.2 by Kenney (www.kenney.nl)  -  License: CC0 1.0 Universal (public domain)
+   https://kenney.nl/assets/racing-kit  (also https://opengameart.org/content/racing-kit)
+   Trackside scenery in the rally titles: grandStandCovered, overheadLights, tentLong,
+   flagCheckers (with checkers.png), treeLarge, treeSmall -> img/track/
+   Original license text: img/track/Kenney_Racing_Kit_License.txt
+
+3. Original art made for this app
+   Backgrounds (img/bg), hero image, icons, splash screens and all 40 cover
+   paintings (img/covers) were generated with image tools specifically for
+   Endless Play Vault. All characters are original. None are copies or
+   look-alikes of existing game characters, and no covers are fake screenshots.
+
+3b. Word list (v1.3)
+   Honeycomb Speller word sets were filtered from the 3esl list of
+   12dicts 6.0.2 by Alan Beale, released into the public domain
+   (acknowledgment requested; thank you, Alan Beale and Kevin Atkinson).
+   http://wordlist.aspell.net/12dicts/
+   Crossword grids, clues, word search themes and spelling lists were
+   written and generated for this app.
+   v1.3 backgrounds and covers for the word, puzzle, marble and bounce games
+   were also generated specifically for Endless Play Vault.
+
+4. Sound
+   All sound effects and music are synthesized live with the Web Audio API.
+   No audio files are included.
+
+5. Fonts
+   System fonts only. No font files are bundled or downloaded.
